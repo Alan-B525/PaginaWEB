@@ -452,6 +452,7 @@ body {
     display: flex;
 }
 
-
-
-
+.BHB:hover .stroke-logo{
+    stroke-dasharray: 200;
+    animation: animate-stroke-logo 3s forwards;
+}
