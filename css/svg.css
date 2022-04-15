@@ -1,13 +1,12 @@
 .BHB:hover .stroke-logo{
     stroke-dasharray: 200;
-    animation: animate-stroke-logo 1s linear 1s;
+    animation: animate-stroke-logo 1.5s forwards;
 }
 
 @keyframes animate-stroke-logo {
     0% {stroke-dashoffset: 0;}
     50% {stroke-dashoffset: -200;}
     100% {stroke-dashoffset: -400;}
-
     0% {fill-opacity: 1;}
     1% {fill-opacity: 0;}
     90% {fill-opacity: 0;}
